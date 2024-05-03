@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import RestaurantItem from "./restaurantItem";
+import RestaurantItem from "./RestaurantItem";
 
 function RestaurantList({ restaurants }) {
   return (
