@@ -1,13 +1,14 @@
 import PropTypes from "prop-types";
 import RestaurantItem from "./RestaurantItem";
+import Grid from "./styled/Grid";
 
 function RestaurantList({ restaurants }) {
   return (
-    <div className="grid">
+    <Grid>
       {restaurants.map((restaurant) => (
         <RestaurantItem key={restaurant.id} {...restaurant} />
       ))}
-    </div>
+    </Grid>
   );
 }
 
